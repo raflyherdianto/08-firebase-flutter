@@ -34,7 +34,7 @@ class _LoginEmailState extends State<LoginEmail> {
               const FlutterLogo(size: 120),
               const SizedBox(height: 20),
               const Text(
-                'Please Login',
+                'Welcome Back!',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
               ),
@@ -55,6 +55,7 @@ class _LoginEmailState extends State<LoginEmail> {
               const SizedBox(height: 20),
               ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 139, 0, 186),
                   minimumSize: const Size.fromHeight(50),
                 ),
                 icon: const Icon(Icons.lock_open, size: 32),

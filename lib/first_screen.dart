@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_flutter/layout/login_page.dart';
-import 'package:firebase_flutter/controller/sign_in.dart';
+import 'package:firebase_flutter/login_page.dart';
+import 'package:firebase_flutter/sign_in.dart';
+import 'package:firebase_flutter/colour_pallete.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({Key? key}) : super(key: key);
@@ -8,14 +9,18 @@ class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Mochammad Rafly Herdianto\n2031710008'),
+        backgroundColor: Color.fromARGB(255, 139, 0, 186),
+      ),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [
-              Color.fromARGB(255, 143, 205, 255),
-              Color.fromARGB(255, 0, 103, 188),
+              Color.fromARGB(255, 255, 255, 255),
+              Color.fromARGB(255, 139, 0, 186),
             ],
           ),
         ),
@@ -67,10 +72,10 @@ class FirstScreen extends StatelessWidget {
                   signOutGoogle();
                   Navigator.of(context).pushAndRemoveUntil(
                       MaterialPageRoute(builder: (context) {
-                    return LoginPage();
+                    return const LoginPage();
                   }), ModalRoute.withName('/'));
                 },
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 140, 0, 255),
                 child: const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(

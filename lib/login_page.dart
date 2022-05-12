@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_flutter/controller/sign_in.dart';
-import 'package:firebase_flutter/layout/first_screen.dart';
-import 'package:firebase_flutter/layout/home_screen.dart';
-import 'package:firebase_flutter/layout/login_email.dart';
+import 'package:firebase_flutter/sign_in.dart';
+import 'package:firebase_flutter/first_screen.dart';
+import 'package:firebase_flutter/home_screen.dart';
+import 'package:firebase_flutter/login_email.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -17,7 +17,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.white,
+        color: Color.fromARGB(255, 139, 0, 186),
         child: Center(
           child: Column(
             mainAxisSize: MainAxisSize.max,
@@ -64,7 +64,7 @@ class _LoginPageState extends State<LoginPage> {
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
-      borderSide: const BorderSide(color: Colors.grey),
+      borderSide: const BorderSide(color: Color.fromARGB(255, 255, 255, 255)),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
         child: Row(
@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                 'Login with Email',
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.grey,
+                  color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
             )
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
-      borderSide: const BorderSide(color: Colors.grey),
+      borderSide: const BorderSide(color: Color.fromARGB(255, 255, 255, 255)),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
         child: Row(
@@ -122,7 +122,7 @@ class _LoginPageState extends State<LoginPage> {
                 'Login with Google',
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.grey,
+                  color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
             )
