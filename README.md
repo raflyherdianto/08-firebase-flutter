@@ -1,16 +1,37 @@
-# firebase_flutter
+# Tugas 8 Pemrograman Mobile
 
-A new Flutter project.
+Membuat Aplikasi Flutter Menggunakan Firebase
 
-## Getting Started
+Nama  : Mochammad Rafly Herdianto <br/>
+NIM   : 2031710008 <br/>
+Kelas : MI-2C <br/>
+Prodi : D3 MI <br/>
 
-This project is a starting point for a Flutter application.
+## Hasil Praktikum
 
-A few resources to get you started if this is your first Flutter project:
+Halaman Utama Login
+<br/>
+<img src="assets/ss/1.png" alt="drawing" width="300"/>
+<br/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Halaman Konfirmasi Akun Google
+<br/>
+<img src="assets/ss/2.png" alt="drawing" width="300"/>
+<br/>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Halaman Home Login Google
+<br/>
+<img src="assets/ss/3.png" alt="drawing" width="300"/>
+<br/>
+
+Halaman Login Email
+<br/>
+<img src="assets/ss/4.png" alt="drawing" width="300"/>
+<br/>
+
+Halaman Home Login Email
+<br/>
+<img src="assets/ss/5.png" alt="drawing" width="300"/>
+<br/>
+
+
